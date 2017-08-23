@@ -16,6 +16,6 @@ app.use(function(req, res, next){
 
 app.use(express.static('public'));  //helps to add functionality to the express module
 
-app.listen(port, function() {
+app.listen(PORT, function() {
   console.log("Server on port " + PORT);
 });
